@@ -1,8 +1,8 @@
 # CSS Zen Garden: The Beauty of CSS Design
 
-> [Your name]
+> ปัญญากาญจน์ พันธ์แตง
 >  
-> [Your ID]
+> 6210450091
 
 ## Task
 
