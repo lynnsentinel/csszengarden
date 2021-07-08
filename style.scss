@@ -1,0 +1,229 @@
+html{
+    color: #2E484C;
+    font-size: 18px;
+}
+header{
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    height: 200px;
+    background-image:url(jpzen.gif);
+    background-position: right top;
+    background-size: 100%;
+    padding: 50px 50px;
+    line-height:0;
+    text-align: center;
+}
+header h1{
+    font-size: 65px;
+}
+header h2{
+    font-size: 32px;
+}
+.summary{
+    display: block;
+    color: rgb(148, 148, 148);
+    line-height:0;
+    margin-top: -120px;
+    margin-bottom: 140;
+    text-align: center;
+}
+.summary a{
+    color:white;
+}
+.preamble{
+    left:auto;
+    margin: 0 2.5% 0 15%;
+    margin-top: 140px;
+    max-width: 495px;
+}
+.preamble h3{
+    font-size: 40px;
+    color: #F26457;
+}
+.explanation{
+    left:auto;
+    margin: 0px  0px 0px 800px;
+    margin-top: -370px;
+    max-width: 495px;
+    margin-bottom: -100px;
+}
+.explanation h3{
+    font-size: 40px;
+    color: #F26457;
+}
+
+.participation {
+    background-color: #F26457;
+    left:auto;
+    margin-top: 140px;
+    padding-bottom: 100px;
+}
+.participation h3{
+    color: white;
+    padding: 2.5% 5% 0% 15%;
+    font-size: 40px;
+    max-width: 495px;
+}
+.participation p{
+    color: white;
+    padding: 0% 0% 0% 15%;
+    max-width: 495px;
+}
+.participation a{
+    color:black;
+}
+.participation::after{
+    background: url(thinking.png) 100px center no-repeat;
+    background-size: 450px;
+    content: '';
+    display: block;
+    float: left;
+    height: 1000px;
+    margin-top: -700px;
+    margin-left: 800px;
+    margin-block-end: -900px;
+    position: relative;
+    width: 700px;
+}
+.benefits {
+    left:auto;
+    margin-top: 140px;
+    padding-bottom: 100px;
+}
+.benefits h3{
+    color: #F26457;
+    padding: 2.5% 5% 0% 55%;
+    font-size: 40px;
+    max-width: 495px;
+}
+.benefits p{
+    padding: 0% 0% 0% 55%;
+    max-width: 495px;
+}
+.benefits::after{
+    background: url(benegit.png) -100px center no-repeat;
+    background-size: 800px;
+    content: '';
+    display: block;
+    float: right;
+    height: 1000px;
+    margin-top: -650px;
+    margin-right: 650px;
+    margin-block-end: -900px;
+    position: relative;
+    width: 700px;
+}
+.requirements {
+    background-color: #F26457;
+    left:auto;
+    margin-top: 140px;
+    padding-bottom: 100px;
+}
+.requirements h3{
+    color: white;
+    padding: 2.5% 5% 0% 15%;
+    font-size: 40px;
+    max-width: 495px;
+}
+.requirements p{
+    color: white;
+    padding: 0% 0% 0% 15%;
+    max-width: 495px;
+}
+.requirements a{
+    color:black;
+}
+.requirements::after{
+    background: url(requirements.png) -50px center no-repeat;
+    background-size: 700px;
+    content: '';
+    display: block;
+    float: left;
+    height: 1000px;
+    margin-top: -850px;
+    margin-left: 800px;
+    margin-block-end: -900px;
+    position: relative;
+    width: 700px;
+}
+footer {
+    margin-top:700px;
+    padding: 1em 3%;
+    color: #fff;
+    text-align: center;
+}
+footer{
+    display: block;
+}
+footer a {
+    font-style: italic;
+    width: 52px;
+    height: 52px;
+    padding: 52px 0 0 0;
+    margin: 0 0.25em;
+    width: 115px;
+    height: 25px;
+    background: #F26457;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.design-selection,.design-archives,.zen-resources {
+    font-style: italic;
+    text-align: center;
+    left:auto;
+    margin-top: -750px;
+    padding-bottom: 100px;
+}
+.design-selection li a  {
+    color: black;
+    text-decoration: none;
+}
+.design-selection ul,.zen-resources ul{
+    list-style-type: none;
+    padding: 0;
+    overflow-x: hidden;
+}
+.design-selection h3{
+    font-size: 40px;
+    color: #F26457;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: -10px;
+    
+}
+.design-name{
+    font-size: 30px;
+    color: black;
+}
+
+.design-archives{
+    margin-top: -130px;
+}
+.design-archives li a  ,.zen-resources li a{
+    text-decoration: none;
+    color: black
+}
+.design-archives ul,.zen-resources ul{
+    list-style-type: none;
+    padding: 0;
+    overflow-x: hidden;
+}
+.design-archives h3{
+    color: #F26457;
+    font-size: 0;
+}
+.resources{
+    margin-top: 650px;
+}
+.zen-resources a{
+    color: black;
+}
+.resources{
+    columns: #F26457;
+}
+/*# sourceMappingURL=style.css.map */
